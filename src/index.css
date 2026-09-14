@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mm-navy: #071a2f;
+  --color-mm-navy-light: #0a223d;
+
+  --color-mm-blue: #0b4778;
+  --color-mm-blue-light: #146aa3;
+
+  --color-mm-green: #18b56b;
+  --color-mm-green-light: #39d98a;
+
+  --color-mm-card: #0d2942;
+  --color-mm-card-hover: #123854;
+
+  --color-mm-border: #1b405d;
+
+  --color-mm-text: #eef6ff;
+  --color-mm-muted: #8fa9bd;
+}
+
+:root {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #071a2f;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 85% 10%,
+      rgba(20, 106, 163, 0.22),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 10% 90%,
+      rgba(24, 181, 107, 0.08),
+      transparent 28%
+    ),
+    #071a2f;
+
+  color: #eef6ff;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
