@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pymongo
+pwdlib[argon2]
+python-jose[cryptography]
+pydantic[email]
+resend
