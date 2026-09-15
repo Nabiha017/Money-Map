@@ -12,5 +12,5 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7
 
 FRONTEND_URL = os.getenv(
     "FRONTEND_URL",
-    "https://nabiha017.github.io/Money-Map"
+    "https://nabiha017.github.io"
 )
